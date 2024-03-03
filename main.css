@@ -49,7 +49,7 @@ section {
     padding: 24px 0;
     color: rgb(0, 0, 0);
 }
-section h2{
+#about h2{
     margin-top: 150px;
     margin-bottom: 16px;
     text-align: center;
@@ -60,4 +60,36 @@ section p {
     margin-bottom: 8px;
     text-align: center;
     font-size: 18px;
+}
+/*--------------------------------------------------------------*/
+.social-links img {
+    height: 24px;
+    margin-right: 8px;
+}
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a {
+    text-decoration: none;
+}
+/*--------------------------------------*/
+#contact .container {
+    display: block;
+}
+.methods {
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+textarea,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea {
+    resize: none;
+    height: 120px;
 }
