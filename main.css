@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kode+Mono:wght@700&family=Madimi+One&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@ header {
     padding: 16px 0;
     background-color:#000000;
     color: gold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 header h1,
 footer p{
@@ -18,7 +21,7 @@ footer p{
 header nav li{
     display: inline;
     margin-left: 16px;
-    font-size: 18px;
+    font-size: 20px;
 }
 header nav a {
     color: gold;
@@ -59,12 +62,14 @@ section h2{
     margin-bottom: 16px;
     text-align: center;
     font-size: 32px;
+    font-family: 'Anton';
 }
 
 section p {
     margin-bottom: 20px;
     text-align: center;
     font-size: 20px;
+    font-family: 'Kode mono';
 }
 /*--------------------------------------------------------------*/
 #about_game .container{
