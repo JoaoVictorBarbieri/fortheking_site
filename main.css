@@ -33,7 +33,6 @@ header nav a {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
-    background-color:;
 }
 header .container,
 section .container{
@@ -49,9 +48,7 @@ section .container{
     display: inline;
     margin-right: 32px;
 }
-section .container{
-    align-items: flex-start;
-}
+
 section {
     padding: 24px 0;
     color: rgb(0, 0, 0);
@@ -69,10 +66,18 @@ section p {
     font-size: 18px;
 }
 /*--------------------------------------------------------------*/
-#about_game {
+#about_game .container{
     display: block;
 }
-/*-------------------------------------------------------------/*
+#about_game .container img{
+    margin: 0;
+    margin-left: 128px;
+}
+#about_game h2 {
+    text-align: center;
+    font-size: 32px;
+}
+/*-------------------------------------------------------------*/
 .social-links img {
     height: 48px;
     margin-right: 8px;
@@ -96,6 +101,10 @@ section p {
 .methods {
     display: flex;
     justify-content: space-between;
+}
+#contact .container img{
+    margin: 0;
+    height: 420px;
 }
 form input,
 textarea,
